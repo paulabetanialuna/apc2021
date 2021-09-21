@@ -60,32 +60,23 @@ a {
 
 .slide_text{
     display: flex;
-
-    justify-content:flex-end;
+    flex-direction: column;
+    justify-content:center;
     align-items: center;
+    text-align: center;
     margin:0.5rem;
 }
-#slide h2{
-    background-color: #FFFFFF;
-    border-radius: 5px;
-    color: #1C2833;
-    font-size: 1rem;
-    padding: 0.5em 3em;
-    text-align: center;
-    font-weight: 700;
-
-}
-
 
 .comederos {
-    width: 400px;
-    height: 100px;
+    width: 450px;
+    height: 70px;
     background: #303568;
-    border-radius: 25px;
+    border-radius: 15px;
     border: none;
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
 }
 
 /*seccion productos destacados*/
@@ -157,68 +148,6 @@ a {
 }
 
 /* ----------------------------*/
-/*seccion formulario*/
-.formulario_contacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.formulario_contacto h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #1C2833;
-    margin-bottom: 0.5rem;
-}
-
-
-.mailform {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.mailform input {
-    width: 340px;
-    height: 40px;
-    background: #1C2833;
-    border-radius: 15px;
-    border: none;
-    color: #FFFFFF;
-    font-size: 0.6rem;
-    padding-left: 1rem;
-    margin: 1rem;
-}
-
-
-.enviarelformulario {
-    margin-top:2rem ;
-}
-
-.resettoboton {
-    width: 110px;
-    height: 34px;
-    background: #8A8787;
-    border-radius: 15px;
-    border: none;
-    color: #F3F3F3;
-    font-size: 1rem;
-}
-
-.contactoboton {
-    width: 110px;
-    height: 34px;
-    background: #D01317;
-    border-radius: 15px;
-    border: none;
-    color: #F3F3F3;
-    font-size: 1rem;
-}
-
-/* ----------------------------*/
 /*barra de suscripcion*/
 .suscripcion {
     text-align: center;
@@ -264,15 +193,18 @@ a {
 .suscboton {
     width: 300px;
     height: 50px;
-    background: #1C2833;
+    background: #303568;
     border-radius: 15px;
-    border: none;
-    color:#FFFFFF;
-    font-size: 1.5rem;
-    font-weight: 500;
+    border: solid #FFFFFF 5px;
+    
     margin-top: 1rem;
 }
 
+.suscboton a{
+    color:#FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 /* ----------------------------*/
 /*footer*/
 footer {
