@@ -24,7 +24,7 @@ a {
     nav a {
         text-decoration: none;
         color: white;
-        font-size: 1rem; 
+        font-size: 0rem; 
         
     }
     
@@ -67,12 +67,17 @@ a {
     margin:0.5rem;
 }
 
+.slide_text h2{
+    background-color: #FFFFFF;
+    padding: 1rem;
+}
+
 .comederos {
     width: 450px;
     height: 70px;
     background: #303568;
     border-radius: 15px;
-    border: none;
+    border: solid #FFFFFF 5px;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 1.5rem;
@@ -201,7 +206,7 @@ a {
 }
 
 .suscboton a{
-    color:#FFFFFF;
+color:#FFFFFF;
     font-size: 1.5rem;
     font-weight: 500;
 }
@@ -244,15 +249,15 @@ nav {
 nav a {
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     
 }
 
 nav i{
     color: #F3F3F3;
-    padding-right: 0.5em;
-    font-size: 2rem;
+    padding-right: 0.5rem;
+    font-size: 1.8rem;
 }
 
 nav ul{ /*le digo que van a ser propiedades del ul dentro del nav*/
@@ -263,11 +268,11 @@ nav ul{ /*le digo que van a ser propiedades del ul dentro del nav*/
 }
 
 nav ul li{
-    margin: 0 3em 0 3em;
+    margin: 0 3rem 0 3rem;
 }
 
 nav img {
-    padding-left: 3em;
+    padding-left: 3rem;
     width: initial;
 }
 /* ----------------------------*/
