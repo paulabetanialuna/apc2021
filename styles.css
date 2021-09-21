@@ -73,14 +73,14 @@ a {
 }
 
 .comederos {
-    width: 450px;
+    width: 330px;
     height: 70px;
     background: #303568;
     border-radius: 15px;
     border: solid #FFFFFF 5px;
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 1rem 0rem;
 }
 
